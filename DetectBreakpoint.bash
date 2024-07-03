@@ -1,7 +1,12 @@
 #!/bin/bash
 #set -x
 SAMPLE=$1
-BEDDIR=/research/bsi/projects/pancreas/s101425.pancreas/projects/CTRB2_samtools/
+BEDDIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+# EDIT this next line
+cramrel="..//manta_gitrepo/cramtest/${SAMPLE}.oqfe.cram"
+cram=`readlink -m $cramrel`
+
+# EDIT the next set of parameters for your data
 #MININSERT = 2 times read-size
 MINFRAG=150
 # MINLARGE = 584+2*readlength=584+2*76=736
@@ -11,8 +16,10 @@ MAXFRAG=1584
 FG=$(mktemp -p . )
 
 
-cram="/research/bsi/data/controlled_access/regeneron/download/incoming/MAYO-CLINIC_Freeze_Two_pVCF/data/CRAM/${SAMPLE}.oqfe.cram"
-cram="/research/bsi/projects/pancreas/s101425.pancreas/projects/pdac_CTRB2/manta_gitrepo/cramtest/${SAMPLE}.oqfe.cram"
+################################################
+#  Do not edit below this line.
+################################################
+
 LEFTB=$(mktemp -p . )
 RIGHTB=$(mktemp -p . )
 LEFTANDRIGHT=$(mktemp -p . )
