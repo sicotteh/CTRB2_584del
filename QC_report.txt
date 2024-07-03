@@ -1,0 +1,19 @@
+## Known Homozygous 7 out of 9 agreed
+## Known Heterozygous Called 95/106
+## known homozygous Hom-Hom were 100% correct (490)
+#SAMPLE	 Deletions_spanning	NonDeletion_Spanning	Inversion_with_CTRB1	Actual	Known	QC_note
+MAYO-CLINIC_27311_20086000879	4	1	9      0/1	1/1	Data supports Het, even after IGV review (MAPQ small spanning read)
+MAYO-CLINIC_50428_20085000465	3	3	2      0/1	1/1	Data supports Het, even after IGV review (MAPQ small spanning read)
+MAYO-CLINIC_30579_20086000737	0	18	0	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_52262_20085001020	0	4	5	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_43699_20086000558	0	6	0	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_44095_20085000339	0	3	6	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_55426_20085000739	0	5	0	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_55610_20071002062	0	2	0	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_42638_20086000441	0	10	0	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_17070_20085000680	0	5	0	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_49254_20085000581	0	8	3	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_49148_20085000747	0	4	0	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+MAYO-CLINIC_49851_20049000814	0	10	0	0/0	0/1	Data supports Hom, even after IGV review. No evidence of Large-span read pair supporting deletion	
+
+
