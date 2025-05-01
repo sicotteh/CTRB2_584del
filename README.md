@@ -27,8 +27,6 @@ If the genotype is 0/0 or 1/1 and If the total coverage is 7 or less
 	HighDP_yetNoCalls
 		Genotype == NA If the total coverage is 10 or more, but there are no reads supporting normal or large
 
-![image](https://github.com/user-attachments/assets/9fb3bad8-b55b-45ca-a9db-9c88c8e31775)
-
 
 License is MIT licence
 Copyright Mayo Clinic
