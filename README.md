@@ -8,9 +8,9 @@ You should edit the script to set the location of the script and the path to the
 You probably want to edit the code to set cutoffs appropriate for your data (depends on read size (76bp in this version).
 
 ## Method
-Using SAMtools, we counted reads spanning a 584 bp deletion encompassing exon5 34559995 (reads mapping to chr16:75204400-75205700 on GRCh38), counting read with anomalously large insert size (supporting the deletion) and reads with normal insert size (not supporting the deletion). The total coverage also includes reads with anomalous mapping (appear to be large insertion but caused by a germline CTRB1 inversion) as an additional indicator of total coverage.
+Using SAMtools, we counted read pairs spanning a 584 bp deletion encompassing exon5 34559995 (reads mapping to chr16:75204400-75205700 on GRCh38), counting read pairs with anomalously large insert size (supporting the deletion) and read pairs with normal insert size (not supporting the deletion). The total coverage also includes read pairs with anomalous mapping (appear to be large insertion but caused by a germline CTRB1 inversion) as an additional indicator of total coverage.
 
-The program’s cutoffs were calibrated with 605 samples from a cohort of 605 samples which were assayed for the deletion using PCR, 9 of which were homozygous deletion and 106 of which were heterozygous for the deletion.
+The program’s cutoffs were calibrated from a subset of 605 samples which were also assayed for the deletion using PCR, 9 of which were homozygous deletion and 106 of which were heterozygous for the deletion.
 
 Genotype were assigned as follows. If only reads supporting the deletion are found (and none supporting the exon 6 sequence), genotype is called 1/1. If no reads supporting the deletion were found, genotypes were 0/0, otherwise genotype was 0/1.
 We further annotate the variants with a confidence indicator
