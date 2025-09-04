@@ -8,7 +8,7 @@ You should edit the script to set the location of the script and the path to the
 You probably want to edit the code to set cutoffs appropriate for your data (depends on read size (76bp in this version).
 
 ## Method
-Using SAMtools, we counted read pairs spanning a 584 bp deletion of the CTRB2 gene (1) encompassing exon5 34559995 (reads mapping to chr16:75204400-75205700 on GRCh38), counting read pairs with anomalously large insert size (supporting the deletion) and read pairs with normal insert size (not supporting the deletion). The total coverage also includes read pairs with anomalous mapping (appear to be large insertion but caused by a germline CTRB1 inversion) as an additional indicator of total coverage.
+Using SAMtools, we counted read pairs spanning a 584 bp deletion of the CTRB2 gene (1) encompassing exon5 (reads mapping to chr16:75204400-75205700 on GRCh38), counting read pairs with anomalously large insert size (supporting the deletion) and read pairs with normal insert size (not supporting the deletion). The total coverage also includes read pairs with anomalous mapping (appear to be large insertion but caused by a germline CTRB1 inversion) as an additional indicator of total coverage.
 
 The program’s cutoffs were calibrated from a subset of 605 samples which were also assayed for the deletion using PCR, 9 of which were homozygous deletion and 106 of which were heterozygous for the deletion.
 
