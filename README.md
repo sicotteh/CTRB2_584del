@@ -8,7 +8,7 @@ You should edit the script to set the location of the script and the path to the
 You probably want to edit the code to set cutoffs appropriate for your data (depends on read size (76bp in this version).
 
 ## Method
-Using SAMtools, we counted read pairs spanning a 584 bp deletion encompassing exon5 34559995 (reads mapping to chr16:75204400-75205700 on GRCh38), counting read pairs with anomalously large insert size (supporting the deletion) and read pairs with normal insert size (not supporting the deletion). The total coverage also includes read pairs with anomalous mapping (appear to be large insertion but caused by a germline CTRB1 inversion) as an additional indicator of total coverage.
+Using SAMtools, we counted read pairs spanning a 584 bp deletion of the CTRB2 gene (1) encompassing exon5 34559995 (reads mapping to chr16:75204400-75205700 on GRCh38), counting read pairs with anomalously large insert size (supporting the deletion) and read pairs with normal insert size (not supporting the deletion). The total coverage also includes read pairs with anomalous mapping (appear to be large insertion but caused by a germline CTRB1 inversion) as an additional indicator of total coverage.
 
 The program’s cutoffs were calibrated from a subset of 605 samples which were also assayed for the deletion using PCR, 9 of which were homozygous deletion and 106 of which were heterozygous for the deletion.
 
@@ -26,6 +26,9 @@ If the genotype is 0/0 or 1/1 and If the total coverage is 7 or less
 		Genotype == NA If the total coverage is 0
 	HighDP_yetNoCalls
 		Genotype == NA If the total coverage is 10 or more, but there are no reads supporting normal or large
+
+# Citations
+1. Jermusyk A, Zhong J, Connelly KE, Gordon N, Perera S, Abdolalizadeh E, Zhang T, O'Brien A, Hoskins JW, Collins I, Eiser D, Yuan C; PanScan Consortium; PanC4 Consortium; Risch HA, Jacobs EJ, Li D, Du M, Stolzenberg-Solomon RZ, Klein AP, Smith JP, Wolpin BM, Chanock SJ, Shi J, Petersen GM, Westlake CJ, Amundadottir LT. A 584 bp deletion in CTRB2 inhibits chymotrypsin B2 activity and secretion and confers risk of pancreatic cancer. Am J Hum Genet. 2021 Oct 7;108(10):1852-1865. doi: 10.1016/j.ajhg.2021.09.002. Epub 2021 Sep 23. PMID: 34559995; PMCID: PMC8546220.<img width="468" height="154" alt="image" src="https://github.com/user-attachments/assets/f4402e32-d20c-4b31-9e8c-6f9484af2358" />
 
 
 License is MIT licence
