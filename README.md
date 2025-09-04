@@ -1,6 +1,15 @@
 # CTRB2del
 Projects to call a 584 bp deletion in exon2 of CTRB2
-from a cram file (or a bam).
+from a cram file (or a bam). From (1), the position of that deletion was determined to be on chromosome 16 from
+	75,238,615 to 75,239,199 (hg19) +/- 5 bp
+	75,204,717 to 75,205,301 (GRCh38
+
+Detecting that deletion is a little complicated for exome because the deleted region is part of a segmental duplication+inversion.
+	CTRB2(+ strand): chr16	75204717`75205301
+ 	
+ 	CTRB1(- strand): chr16	*75222761	75224283 
+
+
 
 The script DetectBreakpoint takes a sample name as a parameter.. and
 computes paired reads supporting the deletion and paired reads spanning the deletion site without showing evidence of deletion.
