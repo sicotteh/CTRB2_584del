@@ -28,8 +28,7 @@ If the genotype is 0/0 or 1/1 and If the total coverage is 7 or less
 		Genotype == NA If the total coverage is 10 or more, but there are no reads supporting normal or large
 
 # Citations
-1. Jermusyk A, Zhong J, Connelly KE, Gordon N, Perera S, Abdolalizadeh E, Zhang T, O'Brien A, Hoskins JW, Collins I, Eiser D, Yuan C; PanScan Consortium; PanC4 Consortium; Risch HA, Jacobs EJ, Li D, Du M, Stolzenberg-Solomon RZ, Klein AP, Smith JP, Wolpin BM, Chanock SJ, Shi J, Petersen GM, Westlake CJ, Amundadottir LT. A 584 bp deletion in CTRB2 inhibits chymotrypsin B2 activity and secretion and confers risk of pancreatic cancer. Am J Hum Genet. 2021 Oct 7;108(10):1852-1865. doi: 10.1016/j.ajhg.2021.09.002. Epub 2021 Sep 23. PMID: 34559995; PMCID: PMC8546220.<img width="468" height="154" alt="image" src="https://github.com/user-attachments/assets/f4402e32-d20c-4b31-9e8c-6f9484af2358" />
-
+1. Jermusyk A, Zhong J, Connelly KE, Gordon N, Perera S, Abdolalizadeh E, Zhang T, O'Brien A, Hoskins JW, Collins I, Eiser D, Yuan C; PanScan Consortium; PanC4 Consortium; Risch HA, Jacobs EJ, Li D, Du M, Stolzenberg-Solomon RZ, Klein AP, Smith JP, Wolpin BM, Chanock SJ, Shi J, Petersen GM, Westlake CJ, Amundadottir LT. A 584 bp deletion in CTRB2 inhibits chymotrypsin B2 activity and secretion and confers risk of pancreatic cancer. Am J Hum Genet. 2021 Oct 7;108(10):1852-1865. doi: 10.1016/j.ajhg.2021.09.002. Epub 2021 Sep 23. PMID: 34559995; PMCID: PMC8546220
 
 License is MIT licence
 Copyright Mayo Clinic
